@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--配置数据库相关参数-->
+    <context:property-placeholder location="classpath:jdbc.properties"></context:property-placeholder>
+
+    <!--数据源druid -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${mysql_driver}"></property>
+        <property name="url" value="${mysql_url"></property>
+        <property name="username" value="${mysql_username}"></property>
+        <property name="password" value="mysql_password}"></property>
+        
+        <property name="initialSize" value="0"></property>
+    </bean>
+
+    <!--配置SqlSessionFactory对象-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--注入数据库连接池-->
+        <property name="dataSource" value="dataSource"></property>
+        <!--配置mybatis全局配置文件:mybatis-config.xml-->
+        <property name="configLocation" value="classpath:mybatis-config.xml"></property>
+        <!--扫描entity包,使用别名,多个用;隔开-->
+       <!-- <property name="typeAliasesPackage" value="com.yingjun.ssm.entity"/>-->
+        <!--扫描sql配置文件:mapper需要的xml文件-->
+        <property name="mapperLocations" value="classpath:mapper/*.xml"/>
+    </bean>
+    <!--配置扫描Dao接口包,动态实现DAO接口,注入到spring容器-->
+    <bean id="s" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+       <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+        <property name="basePackage" value="top.kaisyuan.blog.dao"></property>
+    </bean>
+</beans>

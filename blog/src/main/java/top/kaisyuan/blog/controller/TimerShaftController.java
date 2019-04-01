@@ -5,10 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("blog")
-public class Test {
+public class TimerShaftController {
 
-    @RequestMapping("login")
-    public void login(){
-        System.out.println("登录成功");
+    @RequestMapping("time")
+    public String time(){
+        System.out.println("132");
+        return "time";
     }
 }

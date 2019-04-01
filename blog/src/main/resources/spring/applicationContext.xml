@@ -34,6 +34,9 @@
        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
         <property name="basePackage" value="top.kaisyuan.blog.dao"></property>
     </bean>
+    <mvc:annotation-driven/>
+    <mvc:default-servlet-handler/>
+
     <!--配置JSP　显示ViewResolver-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
@@ -45,4 +48,6 @@
     <context:component-scan base-package="top.kaisyuan.blog.controller"></context:component-scan>
     <context:component-scan base-package="top.kaisyuan.blog.controller"></context:component-scan>
     <context:component-scan base-package="top.kaisyuan.blog.Admin.controller"></context:component-scan>
+
+
 </beans>

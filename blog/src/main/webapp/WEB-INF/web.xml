@@ -9,19 +9,18 @@
 
   <!-- 配置SpringMVC DispatcherServlet -->
   <servlet>
-    <servlet-name>spring-dispatcher</servlet-name>
-    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-    <init-param>
-      <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:spring/applicationContext.xml</param-value>
-    </init-param>
-    <load-on-startup>1</load-on-startup>
+      <servlet-name>spring-dispatcher</servlet-name>
+      <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+      <init-param>
+          <param-name>contextConfigLocation</param-name>
+          <param-value>classpath:spring/applicationContext.xml</param-value>
+      </init-param>
+      <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
-    <servlet-name>spring-dispatcher</servlet-name>
-    <url-pattern>/</url-pattern>
+      <servlet-name>spring-dispatcher</servlet-name>
+      <url-pattern>/</url-pattern>
   </servlet-mapping>
-
   <!-- druid -->
   <servlet>
     <servlet-name>DruidStatView</servlet-name>

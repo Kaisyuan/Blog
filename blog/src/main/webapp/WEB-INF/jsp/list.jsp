@@ -1,17 +1,18 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@include file="common/tag.jsp"%>
 <html>
 <head>
     <%@include file="common/title.jsp"%>
-    <link href="css/base.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
-    <link href="css/m.css" rel="stylesheet">
-    <script src="js/jquery.min.js" ></script>
-    <script src="js/jquery.easyfader.min.js"></script>
-    <script src="js/hc-sticky.js"></script>
-    <script src="js/comm.js"></script>
-    <script src="js/scrollReveal.js"></script>
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../../css/index.css" rel="stylesheet">
+    <link href="../../css/m.css" rel="stylesheet">
+    <script src="../../js/jquery.min.js" ></script>
+    <script src="../../js/jquery.easyfader.min.js"></script>
+    <script src="../../js/hc-sticky.js"></script>
+    <script src="../../js/comm.js"></script>
+    <script src="../../js/scrollReveal.js"></script>
     <!--[if lt IE 9]>
-    <script src="js/modernizr.js"></script>
+    <script src="../../js/modernizr.js"></script>
     <![endif]-->
 </head>
 <body>
@@ -48,9 +49,9 @@
         <div class="blogs" data-scroll-reveal="enter bottom over 1s" >
             <h3 class="blogtitle"><a href="/" target="_blank">别让这些闹心的套路，毁了你的网页设计!</a></h3>
             <span class="bplist"><a href="/" title="">
-      <li><img src="images/2.jpg" alt=""></li>
-      <li><img src="images/3.jpg" alt=""></li>
-      <li><img src="images/4.jpg" alt=""></li>
+      <li><img src="../../images/2.jpg" alt=""></li>
+      <li><img src="../../images/3.jpg" alt=""></li>
+      <li><img src="../../images/4.jpg" alt=""></li>
       </a></span>
             <p class="blogtext">如图，要实现上图效果，我采用如下方法：1、首先在数据库模型，增加字段，分别是图片2，图片3。2、增加标签模板，用if，else if 来判断，输出。思路已打开，样式调用就可以多样化啦！... </p>
             <div class="bloginfo">
@@ -107,9 +108,9 @@
         <div class="blogs" data-scroll-reveal="enter bottom over 1s" >
             <h3 class="blogtitle"><a href="/" target="_blank">别让这些闹心的套路，毁了你的网页设计!</a></h3>
             <span class="bplist"><a href="/" title="">
-      <li><img src="images/7.jpg" alt=""></li>
-      <li><img src="images/8.jpg" alt=""></li>
-      <li><img src="images/9.jpg" alt=""></li>
+      <li><img src="../../images/7.jpg" alt=""></li>
+      <li><img src="../../images/8.jpg" alt=""></li>
+      <li><img src="../../images/9.jpg" alt=""></li>
       </a></span>
             <p class="blogtext">如图，要实现上图效果，我采用如下方法：1、首先在数据库模型，增加字段，分别是图片2，图片3。2、增加标签模板，用if，else if 来判断，输出。思路已打开，样式调用就可以多样化啦！... </p>
             <div class="bloginfo">
@@ -124,7 +125,7 @@
         </div>
         <div class="blogs" data-scroll-reveal="enter bottom over 1s" >
             <h3 class="blogtitle"><a href="/" target="_blank">别让这些闹心的套路，毁了你的网页设计!</a></h3>
-            <span class="bigpic"><a href="/" title=""><img src="images/10.jpg" alt=""></a></span>
+            <span class="bigpic"><a href="/" title=""><img src="../../images/10.jpg" alt=""></a></span>
             <p class="blogtext">如图，要实现上图效果，我采用如下方法：1、首先在数据库模型，增加字段，分别是图片2，图片3。2、增加标签模板，用if，else if 来判断，输出。思路已打开，样式调用就可以多样化啦！... </p>
             <div class="bloginfo">
                 <ul>
@@ -138,7 +139,7 @@
         </div>
         <div class="blogs" data-scroll-reveal="enter bottom over 1s" >
             <h3 class="blogtitle"><a href="/" target="_blank">别让这些闹心的套路，毁了你的网页设计!</a></h3>
-            <span class="blogpic"><a href="/" title=""><img src="images/1.jpg" alt=""></a></span>
+            <span class="blogpic"><a href="/" title=""><img src="../../images/1.jpg" alt=""></a></span>
             <p class="blogtext">如图，要实现上图效果，我采用如下方法：1、首先在数据库模型，增加字段，分别是图片2，图片3。2、增加标签模板，用if，else if 来判断，输出。思路已打开，样式调用就可以多样化啦！... </p>
             <div class="bloginfo">
                 <ul>
@@ -166,9 +167,9 @@
         <div class="blogs" data-scroll-reveal="enter bottom over 1s" >
             <h3 class="blogtitle"><a href="/" target="_blank">别让这些闹心的套路，毁了你的网页设计!</a></h3>
             <span class="bplist"><a href="/" title="">
-      <li><img src="images/2.jpg" alt=""></li>
-      <li><img src="images/3.jpg" alt=""></li>
-      <li><img src="images/4.jpg" alt=""></li>
+      <li><img src="../../images/2.jpg" alt=""></li>
+      <li><img src="../../images/3.jpg" alt=""></li>
+      <li><img src="../../images/4.jpg" alt=""></li>
       </a></span>
             <p class="blogtext">如图，要实现上图效果，我采用如下方法：1、首先在数据库模型，增加字段，分别是图片2，图片3。2、增加标签模板，用if，else if 来判断，输出。思路已打开，样式调用就可以多样化啦！... </p>
             <div class="bloginfo">
@@ -183,7 +184,7 @@
         </div>
         <div class="blogs" data-scroll-reveal="enter bottom over 1s" >
             <h3 class="blogtitle"><a href="/" target="_blank">别让这些闹心的套路，毁了你的网页设计!</a></h3>
-            <span class="bigpic"><a href="/" title=""><img src="images/5.jpg" alt=""></a></span>
+            <span class="bigpic"><a href="/" title=""><img src="../../images/5.jpg" alt=""></a></span>
             <p class="blogtext">如图，要实现上图效果，我采用如下方法：1、首先在数据库模型，增加字段，分别是图片2，图片3。2、增加标签模板，用if，else if 来判断，输出。思路已打开，样式调用就可以多样化啦！... </p>
             <div class="bloginfo">
                 <ul>
@@ -197,7 +198,7 @@
         </div>
         <div class="blogs" data-scroll-reveal="enter bottom over 1s" >
             <h3 class="blogtitle"><a href="/" target="_blank">别让这些闹心的套路，毁了你的网页设计!</a></h3>
-            <span class="blogpic"><a href="/" title=""><img src="images/6.jpg" alt=""></a></span>
+            <span class="blogpic"><a href="/" title=""><img src="../../images/6.jpg" alt=""></a></span>
             <p class="blogtext">如图，要实现上图效果，我采用如下方法：1、首先在数据库模型，增加字段，分别是图片2，图片3。2、增加标签模板，用if，else if 来判断，输出。思路已打开，样式调用就可以多样化啦！... </p>
             <div class="bloginfo">
                 <ul>
@@ -225,9 +226,9 @@
         <div class="blogs" data-scroll-reveal="enter bottom over 1s" >
             <h3 class="blogtitle"><a href="/" target="_blank">别让这些闹心的套路，毁了你的网页设计!</a></h3>
             <span class="bplist"><a href="/" title="">
-      <li><img src="images/7.jpg" alt=""></li>
-      <li><img src="images/8.jpg" alt=""></li>
-      <li><img src="images/9.jpg" alt=""></li>
+      <li><img src="../../images/7.jpg" alt=""></li>
+      <li><img src="../../images/8.jpg" alt=""></li>
+      <li><img src="../../images/9.jpg" alt=""></li>
       </a></span>
             <p class="blogtext">如图，要实现上图效果，我采用如下方法：1、首先在数据库模型，增加字段，分别是图片2，图片3。2、增加标签模板，用if，else if 来判断，输出。思路已打开，样式调用就可以多样化啦！... </p>
             <div class="bloginfo">
@@ -242,7 +243,7 @@
         </div>
         <div class="blogs" data-scroll-reveal="enter bottom over 1s" >
             <h3 class="blogtitle"><a href="/" target="_blank">别让这些闹心的套路，毁了你的网页设计!</a></h3>
-            <span class="bigpic"><a href="/" title=""><img src="images/10.jpg" alt=""></a></span>
+            <span class="bigpic"><a href="/" title=""><img src="../../images/10.jpg" alt=""></a></span>
             <p class="blogtext">如图，要实现上图效果，我采用如下方法：1、首先在数据库模型，增加字段，分别是图片2，图片3。2、增加标签模板，用if，else if 来判断，输出。思路已打开，样式调用就可以多样化啦！... </p>
             <div class="bloginfo">
                 <ul>
@@ -261,12 +262,12 @@
         <div class="wdxc">
             <h2>图文精选</h2>
             <ul>
-                <li><a href="/"><img src="images/7.jpg"></a></li>
-                <li><a href="/"><img src="images/8.jpg"></a></li>
-                <li><a href="/"><img src="images/9.jpg"></a></li>
-                <li><a href="/"><img src="images/10.jpg"></a></li>
-                <li><a href="/"><img src="images/11.jpg"></a></li>
-                <li><a href="/"><img src="images/12.jpg"></a></li>
+                <li><a href="/"><img src="../../images/7.jpg"></a></li>
+                <li><a href="/"><img src="../../images/8.jpg"></a></li>
+                <li><a href="/"><img src="../../images/9.jpg"></a></li>
+                <li><a href="/"><img src="../../images/10.jpg"></a></li>
+                <li><a href="/"><img src="../../images/11.jpg"></a></li>
+                <li><a href="/"><img src="../../images/12.jpg"></a></li>
             </ul>
         </div>
         <div class="cloud">
@@ -305,15 +306,13 @@
         <div class="guanzhu">
             <h2>关注我 么么哒</h2>
             <ul>
-                <img src="images/wx.jpg">
+                <img src="../../images/wx.jpg">
             </ul>
         </div>
 
     </aside>
 </article>
-<footer>
-    <p>Design by <a href="http://www.yangqq.com" target="_blank">杨青个人博客</a> <a href="/">蜀ICP备11002373号-1</a><a href="/" class="links">友情链接</a></p>
-</footer>
+<%@include file="common/footer.jsp"%>
 <a href="#" class="cd-top">Top</a>
 </body>
 </html>

@@ -3,13 +3,13 @@
 <html>
 <head>
    <%@include file="common/title.jsp"%>
-    <link href="css/base.css" rel="stylesheet">
-    <link href="css/about.css" rel="stylesheet">
-    <link href="css/m.css" rel="stylesheet">
-    <script src="js/jquery.min.js" ></script>
-    <script src="js/ab.js"></script>
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../../css/about.css" rel="stylesheet">
+    <link href="../../css/m.css" rel="stylesheet">
+    <script src="../../js/jquery.min.js" ></script>
+    <script src="../../js/ab.js"></script>
     <!--[if lt IE 9]>
-    <script src="js/modernizr.js"></script>
+    <script src="../../js/modernizr.js"></script>
     <![endif]-->
 </head>
 <body>
@@ -17,7 +17,7 @@
 <article>
     <div class="photowall">
         <ul class="wall_a">
-            <li><a href="/"><img src="images/1.jpg">
+            <li><a href="/"><img src="../../images/1.jpg">
                 <figcaption>
                     <h2>不再因为别人过得好而焦虑，在没有人看得到你的时候依旧能保持节奏 </h2>
                 </figcaption>
@@ -25,7 +25,7 @@
             <li>
                 <p class="text_b"><a href="/">逃避自己的人，最终只能导致自己世界的崩塌，而变得越来越没有安全感。</a></p>
             </li>
-            <li><a href="/"><img src="images/3.jpg">
+            <li><a href="/"><img src="../../images/3.jpg">
                 <figcaption>
                     <h2>不再因为别人过得好而焦虑，在没有人看得到你的时候依旧能保持节奏 </h2>
                 </figcaption>
@@ -36,7 +36,7 @@
             <li>
                 <p class="text_b"><a href="/">逃避自己的人，最终只能导致自己世界的崩塌，而变得越来越没有安全感。</a></p>
             </li>
-            <li><a href="/"><img src="images/5.jpg">
+            <li><a href="/"><img src="../../images/5.jpg">
                 <figcaption>
                     <h2>不再因为别人过得好而焦虑，在没有人看得到你的时候依旧能保持节奏 </h2>
                 </figcaption>
@@ -44,7 +44,7 @@
             <li>
                 <p class="text_b"><a href="/">逃避自己的人，最终只能导致自己世界的崩塌，而变得越来越没有安全感。</a></p>
             </li>
-            <li><a href="/"><img src="images/6.jpg">
+            <li><a href="/"><img src="../../images/6.jpg">
                 <figcaption>
                     <h2>不再因为别人过得好而焦虑，在没有人看得到你的时候依旧能保持节奏 </h2>
                 </figcaption>
@@ -71,7 +71,7 @@
                     <p>职业：Web前端设计师、网页设计 </p>
                     <p>邮箱：dancesmiling@qq.com</p>
                     <p>个人微信：</p>
-                    <p><img src="images/grwx.png"></p>
+                    <p><img src="../../images/grwx.png"></p>
 
                 </div>
             </div>
@@ -106,7 +106,7 @@
                     <p>程 序：PHP 帝国CMS7.5&nbsp; &nbsp;<u><a href="http://www.yangqq.com/blogs/876.html" target="_blank"><span style="color:#000000;">为什么选择帝国cms？</span></a></u></p>
                     <p class="ab_t">微信扫码打赏：</p>
 
-                    <p><img src="images/weipayimg.jpg"></p>
+                    <p><img src="../../images/weipayimg.jpg"></p>
 
                 </div>
             </div>

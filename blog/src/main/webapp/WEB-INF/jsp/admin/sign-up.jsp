@@ -4,18 +4,10 @@
 
 <head>
     <%@include file="common/title.jsp"%>
-    <%--<link rel="icon" type="image/png" href=""<%=path%>/admin/assets/i/favicon.png">
-    <link rel="apple-touch-icon-precomposed" href=""<%=path%>/admin/assets/i/app-icon72x72@2x.png">
-    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
-    <link rel="stylesheet" href="<%=path%>/admin/assets/css/amazeui.min.css" />
-    <link rel="stylesheet" href="<%=path%>/admin/assets/css/amazeui.datatables.min.css" />
-    <link rel="stylesheet" href="<%=path%>/admin/assets/css/app.css">
-    <script src="<%=path%>/admin/assets/js/jquery.min.js"></script>--%>
-
 </head>
 
 <body data-type="login">
-<script src="<%=path%>/admin/assets/js/theme.js"></script>
+<script src="assets/js/theme.js"></script>
 <div class="am-g tpl-g">
     <!-- 风格切换 -->
     <div class="tpl-skiner">
@@ -33,38 +25,55 @@
     </div>
     <div class="tpl-login">
         <div class="tpl-login-content">
-            <div class="tpl-login-logo">
-            </div>
+            <div class="tpl-login-title">注册用户</div>
+            <span class="tpl-login-content-info">
+                  创建一个新的用户
+              </span>
+
 
             <form class="am-form tpl-form-line-form">
                 <div class="am-form-group">
-                    <input type="text" class="tpl-form-input" id="user-name" placeholder="请输入账号">
+                    <input type="text" class="tpl-form-input" id="user-name" placeholder="邮箱">
 
+                </div>
+
+                <div class="am-form-group">
+                    <input type="text" class="tpl-form-input" id="user-name" placeholder="用户名">
                 </div>
 
                 <div class="am-form-group">
                     <input type="password" class="tpl-form-input" id="user-name" placeholder="请输入密码">
-
                 </div>
+
+                <div class="am-form-group">
+                    <input type="password" class="tpl-form-input" id="user-name" placeholder="再次输入密码">
+                </div>
+
                 <div class="am-form-group tpl-login-remember-me">
                     <input id="remember-me" type="checkbox">
                     <label for="remember-me">
 
-                        记住密码
+                        我已阅读并同意 <a href="javascript:;">《用户注册协议》</a>
                     </label>
 
                 </div>
+
+
+
+
+
+
                 <div class="am-form-group">
 
-                    <button type="button" class="am-btn am-btn-primary  am-btn-block tpl-btn-bg-color-success  tpl-login-btn">登录</button>
+                    <button type="button" class="am-btn am-btn-primary  am-btn-block tpl-btn-bg-color-success  tpl-login-btn">提交</button>
 
                 </div>
             </form>
         </div>
     </div>
 </div>
-<script src="<%=path%>/admin/assets/js/amazeui.min.js"></script>
-<script src="<%=path%>/admin/assets/js/app.js"></script>
+<script src="assets/js/amazeui.min.js"></script>
+<script src="assets/js/app.js"></script>
 
 </body>
 

@@ -9,7 +9,6 @@ public class TimerShaftController {
 
     @RequestMapping("time")
     public String time(){
-        System.out.println("132");
         return "time";
     }
 }
